@@ -71,6 +71,8 @@ Offset  Taille  Description
 - **Vérification d'intégrité** : Détection de modifications
 
 
+# 🚀 Exécuter en tant qu'administrateur
+
 ## Interface utilisateur
 
 ### Contrôles principaux
@@ -89,8 +91,6 @@ Offset  Taille  Description
    - Restaurable (Oui/Non)
 7. **Journal de log** : Messages et erreurs
 
-
-# 🚀 Exécuter en tant qu'administrateur
 
 ## Compilation
 
@@ -327,6 +327,12 @@ MFT          : Entrées marquées comme supprimées
 ```
 
 
+# 🚀 Lister les fichiers $I
+
+# 🚀 Compter les fichiers par SID
+
+# 🚀 Restaurer un fichier manuellement
+
 ## Limitations connues
 
 ### Limitations système
@@ -348,12 +354,6 @@ MFT          : Entrées marquées comme supprimées
 - **Timestamps modifiables** : Peuvent être altérés (rare)
 
 
-# 🚀 Lister les fichiers $I
-
-# 🚀 Compter les fichiers par SID
-
-# 🚀 Restaurer un fichier manuellement
-
 ## Améliorations futures
 
 ### Court terme
@@ -374,6 +374,12 @@ MFT          : Entrées marquées comme supprimées
 - **Mode réseau** : Scan de corbeilles sur multiples machines
 - **API REST** : Intégration SIEM
 
+
+# 🚀 Convertir SID en nom
+
+# 🚀 SHA-1
+
+# 🚀 MD5
 
 ## Outils complémentaires
 
@@ -408,12 +414,6 @@ Copy-Item "C:\$Recycle.Bin\{SID}\$R123ABC.txt" -Destination "C:\Restored\file.tx
 - **X-Ways Forensics** : Support complet de la corbeille
 - **FTK** : Récupération et analyse
 
-
-# 🚀 Convertir SID en nom
-
-# 🚀 SHA-1
-
-# 🚀 MD5
 
 ## Références techniques
 
@@ -573,6 +573,14 @@ furnished to do so, subject to the following conditions:
 **RecycleBinForensics** - Outil forensique professionnel pour l'analyse de la Corbeille Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
