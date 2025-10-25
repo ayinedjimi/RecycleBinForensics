@@ -90,6 +90,8 @@ Offset  Taille  Description
 7. **Journal de log** : Messages et erreurs
 
 
+# 🚀 Exécuter en tant qu'administrateur
+
 ## Compilation
 
 ### Prérequis
@@ -108,8 +110,6 @@ cl.exe /nologo /W4 /EHsc /O2 /D_UNICODE /DUNICODE /FeRecycleBinForensics.exe Rec
     kernel32.lib user32.lib gdi32.lib comctl32.lib comdlg32.lib shlwapi.lib shell32.lib ole32.lib
 ```
 
-
-# 🚀 Exécuter en tant qu'administrateur
 
 ## 🚀 Utilisation
 
@@ -348,6 +348,12 @@ MFT          : Entrées marquées comme supprimées
 - **Timestamps modifiables** : Peuvent être altérés (rare)
 
 
+# 🚀 Lister les fichiers $I
+
+# 🚀 Compter les fichiers par SID
+
+# 🚀 Restaurer un fichier manuellement
+
 ## Améliorations futures
 
 ### Court terme
@@ -368,12 +374,6 @@ MFT          : Entrées marquées comme supprimées
 - **Mode réseau** : Scan de corbeilles sur multiples machines
 - **API REST** : Intégration SIEM
 
-
-# 🚀 Lister les fichiers $I
-
-# 🚀 Compter les fichiers par SID
-
-# 🚀 Restaurer un fichier manuellement
 
 ## Outils complémentaires
 
@@ -409,6 +409,12 @@ Copy-Item "C:\$Recycle.Bin\{SID}\$R123ABC.txt" -Destination "C:\Restored\file.tx
 - **FTK** : Récupération et analyse
 
 
+# 🚀 Convertir SID en nom
+
+# 🚀 SHA-1
+
+# 🚀 MD5
+
 ## Références techniques
 
 ### Documentation Microsoft
@@ -424,12 +430,6 @@ Copy-Item "C:\$Recycle.Bin\{SID}\$R123ABC.txt" -Destination "C:\Restored\file.tx
 - Rifiuti2 source code : https://github.com/abelcheung/rifiuti2
 - Forensics Wiki : Recycle Bin page
 
-
-# 🚀 Convertir SID en nom
-
-# 🚀 SHA-1
-
-# 🚀 MD5
 
 ## Commandes forensiques utiles
 
@@ -573,6 +573,14 @@ furnished to do so, subject to the following conditions:
 **RecycleBinForensics** - Outil forensique professionnel pour l'analyse de la Corbeille Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 ---
 
