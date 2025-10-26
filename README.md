@@ -38,6 +38,8 @@ Offset  Taille  Description
 ```
 
 
+# 🚀 Exécuter en tant qu'administrateur
+
 ## ✨ Fonctionnalités principales
 
 ### Parsing de la corbeille
@@ -70,8 +72,6 @@ Offset  Taille  Description
 - **Identification** : Comparaison avec des IOC connus
 - **Vérification d'intégrité** : Détection de modifications
 
-
-# 🚀 Exécuter en tant qu'administrateur
 
 ## Interface utilisateur
 
@@ -300,6 +300,12 @@ Indication : Tentative d'effacement de traces
 ```
 
 
+# 🚀 Lister les fichiers $I
+
+# 🚀 Compter les fichiers par SID
+
+# 🚀 Restaurer un fichier manuellement
+
 ## Valeur forensique de la Corbeille
 
 ### Avantages
@@ -327,12 +333,6 @@ MFT          : Entrées marquées comme supprimées
 ```
 
 
-# 🚀 Lister les fichiers $I
-
-# 🚀 Compter les fichiers par SID
-
-# 🚀 Restaurer un fichier manuellement
-
 ## Limitations connues
 
 ### Limitations système
@@ -354,6 +354,12 @@ MFT          : Entrées marquées comme supprimées
 - **Timestamps modifiables** : Peuvent être altérés (rare)
 
 
+# 🚀 Convertir SID en nom
+
+# 🚀 SHA-1
+
+# 🚀 MD5
+
 ## Améliorations futures
 
 ### Court terme
@@ -374,12 +380,6 @@ MFT          : Entrées marquées comme supprimées
 - **Mode réseau** : Scan de corbeilles sur multiples machines
 - **API REST** : Intégration SIEM
 
-
-# 🚀 Convertir SID en nom
-
-# 🚀 SHA-1
-
-# 🚀 MD5
 
 ## Outils complémentaires
 
@@ -573,6 +573,14 @@ furnished to do so, subject to the following conditions:
 **RecycleBinForensics** - Outil forensique professionnel pour l'analyse de la Corbeille Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
