@@ -10,6 +10,8 @@
 RecycleBinForensics est un outil forensique spécialisé dans l'analyse de la **Corbeille Windows** (`$Recycle.Bin`). Il parse les fichiers de métadonnées `$I` et les fichiers de contenu `$R` pour récupérer des informations critiques sur les fichiers supprimés : chemins originaux, timestamps de suppression, tailles, et permet la restauration forensique.
 
 
+# 🚀 Exécuter en tant qu'administrateur
+
 ## Qu'est-ce que $Recycle.Bin ?
 
 La Corbeille Windows (depuis Vista) fonctionne différemment de l'ancienne RECYCLER :
@@ -37,8 +39,6 @@ Offset  Taille  Description
 0x18    Variable Chemin original (Unicode, null-terminated)
 ```
 
-
-# 🚀 Exécuter en tant qu'administrateur
 
 ## ✨ Fonctionnalités principales
 
@@ -214,6 +214,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\{SID
 ```
 
 
+# 🚀 Lister les fichiers $I
+
+# 🚀 Compter les fichiers par SID
+
+# 🚀 Restaurer un fichier manuellement
+
 ## 🚀 Cas d'usage forensiques
 
 ### 1. Investigation de suppression de données
@@ -300,12 +306,6 @@ Indication : Tentative d'effacement de traces
 ```
 
 
-# 🚀 Lister les fichiers $I
-
-# 🚀 Compter les fichiers par SID
-
-# 🚀 Restaurer un fichier manuellement
-
 ## Valeur forensique de la Corbeille
 
 ### Avantages
@@ -333,6 +333,12 @@ MFT          : Entrées marquées comme supprimées
 ```
 
 
+# 🚀 Convertir SID en nom
+
+# 🚀 SHA-1
+
+# 🚀 MD5
+
 ## Limitations connues
 
 ### Limitations système
@@ -353,12 +359,6 @@ MFT          : Entrées marquées comme supprimées
 - **Pas d'attribution directe** : Le SID indique le propriétaire, pas forcément l'auteur de la suppression
 - **Timestamps modifiables** : Peuvent être altérés (rare)
 
-
-# 🚀 Convertir SID en nom
-
-# 🚀 SHA-1
-
-# 🚀 MD5
 
 ## Améliorations futures
 
@@ -573,6 +573,14 @@ furnished to do so, subject to the following conditions:
 **RecycleBinForensics** - Outil forensique professionnel pour l'analyse de la Corbeille Windows
 Développé par **Ayi NEDJIMI** - 2025
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
